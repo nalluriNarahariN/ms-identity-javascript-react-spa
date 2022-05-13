@@ -23,7 +23,7 @@ const ProfileContent = () => {
 
   const getOtp = (data) => {
     axios
-      .post("http://localhost:3050/main/getOtp", data)
+      .post("http://35.154.43.172:3050/main/getOtp", data)
       .then((res) => {
         setOtp(res.data);
       })
